@@ -43,6 +43,7 @@ if [ -z "$CDN_REFRESH_TYPE" ]; then
 fi
 
 cat > main.py <<EOF
+# -*- coding:utf-8 -*-
 import os
 from openstack import connection
 
