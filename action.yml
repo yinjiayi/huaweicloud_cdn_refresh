@@ -1,0 +1,9 @@
+name: "HUAWEICLOUD CDN REFRESH"
+description: "REFRESH CDN CACHE FOR HUAWEICLOUD"
+author: yinjiayi
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
